@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'game-paused';
+    src: url('fonts/game_paused_font.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'crang';
+  src: url('fonts/Crang.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'dogica';
+  src: url('fonts/dogicabold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'upheaval';
+  src: url('fonts/upheavtt.ttf') format('truetype');
+}
+
+.title-text {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: 'crang';
+  font-size: 100px;
+  color: red;
+}
+
+.desc-text {
+  margin-top: 2%;
+  margin-left: 5%;
+  font-family: 'dogica';
+  font-size: 18px;
+  color: black;
+  margin-bottom: 8%;
+}
+
+.next-button {
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 369px;
+  height: 100px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-family: 'upheaval';
+  font-size: 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #90ee90;
+  color: white;
+}
+
+body {
+  background-image: url('pictures/main_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
