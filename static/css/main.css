@@ -35,6 +35,14 @@
   margin-bottom: 8%;
 }
 
+.bot-text {
+  margin-top: 20%;
+  margin-left: 5%;
+  font-family: 'upheaval';
+  font-size: 16px;
+  color: black;
+}
+
 .next-button {
   margin-top: 2%;
   margin-left: 5%;
@@ -57,8 +65,10 @@
   color: white;
 }
 
+
 body {
   background-image: url('pictures/main_bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
