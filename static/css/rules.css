@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'game-paused';
+    src: url('fonts/game_paused_font.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'crang';
+  src: url('fonts/Crang.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'dogica';
+  src: url('fonts/dogicabold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'upheaval';
+  src: url('fonts/upheavtt.ttf') format('truetype');
+}
+
+.opacity-box {
+    margin: 8%;
+    background-color: rgba(47, 144, 235, 0.4); 
+    color: #ffffff;
+    padding: 10px;
+    padding-bottom: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.title-text {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-family: 'crang';
+    font-size: 80px;
+    color: #0047AB;
+    text-align: center;
+}
+
+.desc-text {
+    margin-top: 2%;
+    font-family: 'dogica';
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0.5%;
+    text-align: center;
+}
+
+.next-button {
+    margin-top: 5%;
+    position: fixed;
+    left: 50%;
+    bottom: 35%;
+    transform: translate(-50%, -50%);
+    width: 369px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: 'upheaval';
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #89CFF0;
+  color: white;
+}
+
+body {
+    background-image: url('pictures/other_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  

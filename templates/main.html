@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <title>Main Page</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
 
@@ -10,12 +11,13 @@
 
     <div class="desc-text">A Wordle-inspired NBA 2K guessing game</div>
 
-    <div class="next-button">Play</div>
-    
-    <div class="next-button">Rules</div>
+    <button class="next-button" id="play">Play</button>
+
+    <form action="/rules" method="post">
+        <button class="next-button" id="rules">Rules</button>
+    </form>
 
     <div class="bot-text">Made by Avi Athota, Oct '2023.</div>
-
 
 </body>
 

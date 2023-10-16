@@ -39,7 +39,7 @@
   margin-top: 20%;
   margin-left: 5%;
   font-family: 'upheaval';
-  font-size: 16px;
+  font-size: 18px;
   color: black;
 }
 
@@ -64,7 +64,6 @@
   background-color: #90ee90;
   color: white;
 }
-
 
 body {
   background-image: url('pictures/main_bg.png');
